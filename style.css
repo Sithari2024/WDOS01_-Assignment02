@@ -390,7 +390,7 @@ footer{
 }
 @media screen and (max-width: 767px){
   .intro-header{
-    height: 70vh;
+    min-height: 70vh;
   }
 }
 .header_content1 h1{
@@ -463,7 +463,7 @@ footer{
 .locations-col iframe{
   width: 100%;
 }
-/*Mobile responsive*/
+
 
 /*table design*/
 .summery-table{
@@ -531,7 +531,7 @@ tfoot td{
 }
 @media screen and (max-width: 767px){
   .DWC-header{
-   height: 60vh;
+   min-height: 60vh;
   }
 }
 /*DWC Introduction*/
