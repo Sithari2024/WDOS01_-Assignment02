@@ -1,0 +1,50 @@
+{
+   "title": "DWC SRI LANKA",
+   "intro": {
+     "heading": "Sri Lanka Department of Wildlife Conservation",
+     "text": "Protecting the nation's biodiversity and promoting sustainable resource use are top priorities for Sri Lanka's Department of Wildlife Conservation. It addresses disputes between people and animals and fights illicit activity. It focuses on wildlife research, monitoring, and conservation efforts. Through collaborations with groups and stakeholders, the department also advances ecological balance and public awareness. Its initiatives guarantee the country's natural heritage will be intact."
+   },
+   "vision": "Long term conservation of wildlife resources for present and future generations.",
+   "mission": "To ensure conservation of wildlife resources by all together under Professional Management.",
+   "functions": [
+     "The establishment and appropriate administration of wildlife reserves aim to achieve several specific goals, including protecting the catchment areas of significant reservoirs that supply water for farming and hydropower production, safeguarding religious and cultural heritage, protecting endemic and rare wildlife species, and maintaining unique ecological systems.",
+     "Putting special projects into action and taking appropriate conservation measures to ensure the long-term survival of threatened endemic animal species.",
+     "Protecting wild animal species that don't live inside wildlife reservation areas.",
+     "Establishing a network of wildlife reservations throughout Sri Lanka to guarantee the sustainability of the wildlife resources present in all climatic and geographical zones."
+   ],
+   "strategies": [
+     "Building an elephant care center and fortifying the border fence, especially in the most susceptible locations",
+     "Strengthening Research and Development for Wildlife Tourism Development Agency for the Protection of Wildlife",
+     "Enhancing the Safety",
+     "Creation of livelihoods"
+   ],
+   "protected_areas": [
+     {
+       "name": "Horton Plains National Park",
+       "image": "Image/hortan plain.jpg"
+     },
+     {
+       "name": "Wilpattu National Park",
+       "image": "Image/wilpatthu national park.jpg"
+     },
+     {
+       "name": "Kumana National Park",
+       "image": "Image/kumana national park.jpg"
+     },
+     {
+       "name": "Minneriya-Girithale National Park",
+       "image": "Image/minneriya national park.jpg"
+     },
+     {
+       "name": "Peak Wilderness Sanctuary",
+       "image": "Image/Peak Wilderness Sanctuary.jpg"
+     }
+   ],
+   "map": {
+     "title": "WHERE WE ARE",
+     "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028004.2225828776!2d77.48084085624998!3d6.897092700000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704417192991!5m2!1sen!2slk",
+     "width": 600,
+     "height": 450
+   }
+ }
+ 

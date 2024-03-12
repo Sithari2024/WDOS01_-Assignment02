@@ -1,0 +1,43 @@
+{
+ "header": {
+    "title": "RICH BIODIVERSITY OF SRI LANKA"
+ },
+ "intro": {
+    "title": "The Wildlife Tapestry of Sri Lanka: Exploring the Habitats and Preserving Indigenous Species",
+    "text": "There is a wide variety of flora and fauna in Sri Lanka, such as lizards, turtles, tortoises, monitors, snakes, crocodiles, and 526 birds. These creatures are threatened by global warming and increasing urbanisation, which is why the IUCN has listed some of them on its \"red list\" of critically endangered species. For an animal to be included on this list, it must have lost less than 80% of its population within the last ten years and have less than 250 members in a given area. According to research, the Northern and Eastern provinces have lower levels of urbanisation and human density, which lessens the threat to severely endangered animals. It is possible to stop extinction by enacting laws that penalise poaching, deforestation, urban planning, and environmental respect. Among the significant wildlife reserves are Wilpattu National Park, Yala National Park, and Udawalawe National."
+ },
+ "endangeredAnimals": [
+    {
+      "name": "Blue Whales",
+      "image": "Image/blue whales.jpg",
+      "description": "Based on their diet of crustacean krill, blue whales—the biggest mammals on Earth—are found all over the world. In the deep ocean, their low-frequency sounds can reach hundreds of kilometres, and their maximum length is 30 metres, and their highest weight is 170 tonnes. In order to guarantee their survival, the Sri Lankan Wildlife Department is working."
+    },
+    {
+      "name": "Leatherback turtle",
+      "image": "Image/Leatherback turtle.jpg",
+      "description": "With its large size and leathery carapace, the leatherback sea turtle is one of Sri Lanka's most important species. It lives in coastal areas such as Batticaloa and Panama. Volunteers, wildlife officials, and local organisations are working together to safeguard these amazing creatures through conservation projects. Additionally emphasised are eco-friendly tourism activities like escorted turtle viewing tours."
+    },
+    {
+      "name": "Sloth Bear",
+      "image": "Image/Sloth Bear.jpg",
+      "description": "An ant, a termite, and a fruit eater, the Sri Lankan Sloth Bear is a subspecies of the sloth bear that inhabits dry zone forests. After six to seven months of pregnancy, they give birth to two cubs. A V or Y marking on its chest, large eyes, a tongue, and a long nose characterize this bear."
+    },
+    {
+      "name": "Asian Elephant",
+      "image": "Image/ele.jpg",
+      "description": "Because of poaching, habitat damage, and violence, there are fewer endangered Asian elephants in Sri Lanka. Programs for wildlife corridors, habitat restoration, and conflict mediation are being implemented by conservation organizations in collaboration with local administrations and communities. The largest land mammal, the Asian elephant, is a cultural emblem in Asia."
+    },
+    {
+      "name": "saltwater crocodile",
+      "image": "Image/salt water crocodile.jpg",
+      "description": "Native to saltwater settings in India, Southeast Asia, the Sundaic area, northern Australia, and Micronesia, the saltwater crocodile is a huge, hypercarnivorous predator. They can cross rivers, are migratory, and ambush their prey. At the age of 10–12, they achieve sexual maturity, weigh 400–1000 kg, and construct nests resembling mounds.``````````   "
+    },
+    {
+      "name": "The Black-Necked Stork",
+      "image": "Image/The Black-Necked Stork.jpg",
+      "description": "A large, long-necked wading bird, the black-necked stork is found near crops like wheat and rice as well as in wetland settings. This species is found throughout Southeast Asia and the Indian Subcontinent, with a sporadic occurrence in Australia. Adult birds are patterned in glossy black and white, with yellow irises on females and dark-colored irises on males. They have a hefty bill."
+    }
+    
+    
+ ]
+}
