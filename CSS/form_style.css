@@ -16,7 +16,7 @@ body,html{
  display: flex;
  justify-content: center;
  align-items: center;
- background-image: linear-gradient(rgba(4,9,30,0.3)), url(../Image/background-form.jpg);
+ background-image: linear-gradient(rgba(4,9,30,0.3)), url(Image\backgraound-form.jpg);
  background-size: cover;
  background-position: center;
  height: 100vh;

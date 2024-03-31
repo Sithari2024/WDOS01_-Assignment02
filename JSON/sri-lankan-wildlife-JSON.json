@@ -1,65 +1,57 @@
 {
-  "introHeader": {
-    "title": "WILDLIFE EXPLORATION IN SRI LANKA",
-    "navigation": [
-      {"label": "HOME", "link": "index.html"},
-      {"label": "SRI LANKAN WILDLIFE", "link": "Sri Lankan wildlife.html"},
-      {"label": "DWC SRI LANKA", "link": "Department of Wildlife Conservation.html"},
-      {"label": "SRI LANKAN LEOPARD", "link": "Sri Lankan Leopard .html"},
-      {"label": "ANIMALS IN SRI LANKA", "link": "Animals in Sri Lanka.html"},
-      {"label": "YALA NATIONAL PARK", "link": "Yala National Park .html"},
-      {"label": "WILPATTU NATIONAL PARK", "link": "Wilpattu National Park .html"}
-    ]
-  },
-  "locations": {
-    "title": "Wildlife Exploration in Sri Lanka",
-    "text": "Wildlife aficionados will find paradise in Sri Lanka, an island nation in the Indian Ocean. With its diverse ecosystems and abundant biodiversity, the nation presents a singular chance for wildlife research.",
-    "places": [
-      {
-        "name": "Horton Plains National Park",
-        "image": "Image/horton.jpg",
-        "description": "Popular tourist attraction Horton Plains National Park in Sri Lanka is renowned for its unique environment and indigenous species. Offering sweeping views, the park is home to Baker's Falls and World's End. It offers essential habitats for numerous species and is acknowledged as a UNESCO World Heritage Site. Hiking, trekking, wildlife observation, and nature activities are available to visitors. The park is a must-visit for anyone who enjoys the outdoors due to its vast biodiversity and scenic splendor.",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.79975837499546!3d6.809445993188088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1702842625353!5m2!1sen!2slk"
-      },
-      {
-        "name": "Kumana National Park",
-        "image": "Image/kumana.jpg",
-        "description": "Kumana National Park, a 35,000-hectare wildlife sanctuary in Sri Lanka, is a sanctuary known for its rich biodiversity and unique ecosystems. Established in 1938 as a bird sanctuary, it now hosts over 200 bird species, waterfowl, wading birds, turtle nesting sites, and diverse mammals. The park's numerous water bodies contribute to its ecological diversity. Visitors can explore through guided safaris and nature walks, making it an ideal eco-tourism and wildlife conservation destination.",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126834.97086213436!2d81.5168178972656!3d6.572959800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5c8b55f7156a3%3A0xce605bccbb80201a!2sKumana%20National%20Park!5e0!3m2!1sen!2slk!4v1702842878961!5m2!1sen!2slk"
-      },
-      {
-        "name": "Sinharaja Forest Reserve",
-        "image": "Image/sinharaja.jpg",
-        "description": "A hotspot for biodiversity, Sinharaja Forest Reserve is home to a variety of plants and wildlife, including indigenous species. It is recognized as a UNESCO World Heritage Site in Sri Lanka. Its 11,187 hectares are home to 50% of the indigenous mammals, birds, butterflies, reptiles, and amphibians found in Sri Lanka. The reserve is well-liked for both animal photography and ecotourism. In spite of the dangers posed by encroachment, illicit logging, and deforestation, conservation programmes and ecotourism strategies are being carried out.",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63436.57913193333!2d80.39860740173869!3d6.421511303694683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1702842972115!5m2!1sen!2slk"
+ "pages": {
+    "sriLankanWildlife": {
+      "htmlData": {
+        "header": {
+          "title": "WILDLIFE EXPLORATION IN SRI LANKA"
+        },
+        "introduction": {
+          "text": "Wildlife aficionados will find paradise in Sri Lanka, an island nation in the Indian Ocean. With its diverse ecosystems and abundant biodiversity, the nation presents a singular chance for wildlife research."
+        },
+        "locations": [
+          {
+            "name": "Horton Plains National Park",
+            "image": "Image/horton.jpg",
+            "description": "Popular tourist attraction Horton Plains National Park in Sri Lanka is renowned for its unique environment and indigenous species. Offering sweeping views, the park is home to Baker's Falls and World's End. It offers essential habitats for numerous species and is acknowledged as a UNESCO World Heritage Site. Hiking, trekking, wildlife observation, and nature activities are available to visitors. The park is a must-visit for anyone who enjoy the outdoors due to its vast biodiversity and scenic splendour.",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.79975837499546!3d6.809445993188088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1702842625353!5m2!1sen!2slk"
+          },
+          {
+            "name": "Kumana National Park",
+            "image": "Image/kumana.jpg",
+            "description": "Kumana National Park, a 35,000 hectare wildlife sanctuary in Sri Lanka, is a sanctuary known for its rich biodiversity and unique ecosystems. Established in 1938 as a bird sanctuary, it now hosts over 200 bird species, waterfowl, wading birds, turtle nesting sites, and diverse mammals. The park's numerous water bodies contribute to its ecological diversity. Visitors can explore through guided safaris and nature walks, making it an ideal eco-tourism and wildlife conservation destination.",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126834.97086213436!2d81.5168178972656!3d6.572959800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5c8b55f7156a3%3A0xce605bccbb80201a!2sKumana%20National%20Park!5e0!3m2!1sen!2slk!4v1702842878961!5m2!1sen!2slk"
+          },
+          {
+            "name": "Sinharaja Forest Reserve",
+            "image": "Image/sinharaja.jpg",
+            "description": "A hotspot for biodiversity, Sinharaja Forest Reserve is home to a variety of plants and wildlife, including indigenous species. It is recognized as a UNESCO World Heritage Site in Sri Lanka. Its 11,187 hectares are home to 50% of the indigenous mammals, birds, butterflies, reptiles, and amphibians found in Sri Lanka. The reserve is well-liked for both animal photography and ecotourism. In spite of the dangers posed by encroachment, illicit logging, and deforestation, conservation programmes and ecotourism strategies are being carried out.",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63436.57913193333!2d80.39860740173869!3d6.421511303694683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1702842972115!5m2!1sen!2slk"
+          }
+        ],
+        "summaryTable": {
+          "rows": [
+            {
+              "location": "Horton Plains National Park",
+              "animal": "Sambar Deer",
+              "facts": "An enormous species of deer found worldwide",
+              "image": "Image/sambar deer.jpg"
+            },
+            {
+              "location": "Kumana National Park",
+              "animal": "Elephant",
+              "facts": "An enormous species of deer found worldwide",
+              "image": "Image/elephant.jpg"
+            },
+            {
+              "location": "Sinharaja Forest Reserve",
+              "animal": "Sri Lankan Purple-faced Langur",
+              "facts": "Endangered on the IUCN Red List, it is native to Sri Lanka.",
+              "image": "Image/Langur.jpg"
+            }
+          ],
+          "footer": "Diversity of Sri Lanka"
+        }
       }
-    ]
-  },
-  "summaryTable": {
-    "title": "Summary Table of Wildlife",
-    "rows": [
-      {"location": "Horton Plains National Park", "animal": "Sambar Deer", "facts": "An enormous species of deer found worldwide", "image": "Image/sambar deer.jpg"},
-      {"location": "Kumana National Park", "animal": "Elephant", "facts": "An enormous species of deer found worldwide", "image": "Image/elephant.jpg"},
-      {"location": "Sinharaja Forest Reserve", "animal": "Sri Lankan Purple-faced Langur", "facts": "Endangered on the IUCN Red List, it is native to Sri Lanka.", "image": "Image/Langur.jpg"}
-    ],
-    "footer": "Diversity of Sri Lanka"
-  },
-  "footer": {
-    "socialIcons": [
-      {"platform": "Facebook", "link": ""},
-      {"platform": "Instagram", "link": ""},
-      {"platform": "Twitter", "link": ""},
-      {"platform": "LinkedIn", "link": ""}
-    ],
-    "navigation": [
-      {"label": "HOME", "link": "index.html"},
-      {"label": "SRI LANKAN WILDLIFE", "link": "Sri Lankan wildlife.html"},
-      {"label": "DWC SRI LANKA", "link": "Department of Wildlife Conservation.html"},
-      {"label": "SRI LANKAN LEOPARD", "link": "Sri Lankan Leopard .html"},
-      {"label": "ANIMALS IN SRI LANKA", "link": "Animals in Sri Lanka.html"},
-      {"label": "YALA NATIONAL PARK", "link": "Yala National Park .html"},
-      {"label": "WILPATTU NATIONAL PARK", "link": "Wilpattu National Park .html"}
-    ],
-    "copyright": "&copy;2023 sithari. All rights reserved"
-  }
+    }
+ }
 }

@@ -7,137 +7,165 @@
     <link rel="apple-touch-icon" sizes="180x180" href="Image/attachment_89091231-removebg-preview.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Image/attachment_89091231-removebg-preview.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Image/attachment_89091231-removebg-preview.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS\style.css">
     <!--font styles-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="JS\store.js" defer></script>
+    <script src="JS\subscribe.js" defer></script> 
 </head>
 <body>
-    <section class="header">
+    <div x-data="store">
+     <h1 x-text="pages.home.htmlData.header.title"></h1>
+    </div>
+        <section class="header">
             <div class="menu">
                 <!--the logo of the website-->
                 <div class="logo">
                     <img src="Image/attachment_89091231-removebg-preview.png">
                 </div>
                 <div class="nav">
-                        <nav>
-                            <ul>
-                                <li class="active"><a href="index.html">HOME</a></li>
-                                <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
-                                <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                                <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
-                                <li>
-                                    <a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="index.html">HOME</a></li>
+                            <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
+                            <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
+                            <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
+                            <li>
+                                <a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a>
                                 <div class="dropdown">
                                     <ul>
-                                        <li><a href="Yala National Park .html">YALA NATIONAL PARK  </a></li>
-                                        <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK  </a></li>
+                                        <li><a href="Yala National Park .html">YALA NATIONAL PARK </a></li>
+                                        <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK </a></li>
                                     </ul>
-                            </ul>
-                    </div>
-                        </nav>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                    </div>
-                </li>
-                </ul>
             </div>
+            <section class="introduction">
+                <h2 x-text="pages.home.header.title"></h2>
+                <p x-html="pages.home.introduction.text"></p>
+            </section>
             <!--main heading of the website-->
             <div class="header__content">
                 <h1>WELCOME TO BEAUTY OF SRI LANKA</h1>
             </div>
-    </section>
-    <!--An introduction to Sri Lankan wildlife -->
-    <main>
-        <section class="introduction">
-            <h2>Biodiversity of Sri Lanka</h2>
-            <p>Explore the wildlife of Sri Lanka and its abundant biodiversity and natural beauty.
-                The island is home to a wide variety of flora and fauna, from pristine beaches to lush jungles. 
-                The remarkable diversity of ecosystems that sustain a wide range of wildlife species is facilitated by Sri Lanka's distinct physical features, which include mountains, plains, and coastal regions.
-                A third or so of Sri Lanka's territory is covered with natural vegetation. In much of the nation, forests make up the climax vegetation—that is, the natural flora allowed to grow unhindered. 
-                Tropical wet evergreen forests predominate in the lowlands of the Wet Zone, while submontane and montane evergreen forests do so in the highlands. 
-                The climax vegetation of the Dry Zone is made up of moist deciduous and dry evergreen forests, with the woods giving place to a stunted, shrubby, xerophytic (drought-tolerant) vegetation in its driest areas. 
-                Grasslands and scant woodlands are common in the Central Highlands' highest altitudes.</p>
         </section>
-    </main>
-    
-    
-    <section class="mangrove">
-        <!--Sub-section 01-->
-        <div class="row">
-            <div class="mangrove-col">
-                <h1>Mystical Mangroves-Nurturing Coastal Life</h1>
-                <p>The coastal environment of Sri Lanka depends heavily on mangroves. 
-                The intertidal zone, or the place where land meets the sea, is home to these unusual trees because they have adapted to live in saltwater.</p> 
-                <p>Sri lanka has several types of mangroves.Such as:</p>
-                <ul>
-                    <li>Rhizophora</li>
-                    <li>Avicennia</li>
-                    <li>Sonneratia</li>
-                </ul> 
+        <!--An introduction to Sri Lankan wildlife -->
+        <main>
+            <section class="introduction">
+                <div x-data="store">
+                 <h2 x-text="pages.home.htmlData.introduction.heading"></h2>
+                 <p x-html="pages.home.htmlData.introduction.text"></p>
+                </div>
+                <h2>Biodiversity of Sri Lanka</h2>
+                <p>Explore the wildlife of Sri Lanka and its abundant biodiversity and natural beauty.
+                    The island is home to a wide variety of flora and fauna, from pristine beaches to lush jungles. 
+                    The remarkable diversity of ecosystems that sustain a wide range of wildlife species is facilitated by Sri Lanka's distinct physical features, which include mountains, plains, and coastal regions.
+                    A third or so of Sri Lanka's territory is covered with natural vegetation. In much of the nation, forests make up the climax vegetation—that is, the natural flora allowed to grow unhindered. 
+                    Tropical wet evergreen forests predominate in the lowlands of the Wet Zone, while submontane and montane evergreen forests do so in the highlands. 
+                    The climax vegetation of the Dry Zone is made up of moist deciduous and dry evergreen forests, with the woods giving place to a stunted, shrubby, xerophytic (drought-tolerant) vegetation in its driest areas. 
+                    Grasslands and scant woodlands are common in the Central Highlands' highest altitudes.</p>
+            </section>
+        </main>
+        <section class="mangrove">
+            <div x-data="store">
+             <div x-for="(mangrove, index) in pages.home.htmlData.mangrove" :key="index">
+               <h1 x-text="mangrove.heading"></h1>
+               <p x-html="mangrove.text"></p>
+               <ul x-show="mangrove.types">
+                 <template x-for="type in mangrove.types">
+                   <li x-text="type"></li>
+                 </template>
+               </ul>
+               <img :src="mangrove.image" alt="mangrove">
+             </div>
             </div>
-            <div class="mangrove-col">
-                <img src="Image/mangrove-798578_640.jpg" alt="mangrove">
+            <!--Sub-section 01-->
+            <div class="row">
+                <div class="mangrove-col">
+                    <h1>Mystical Mangroves-Nurturing Coastal Life</h1>
+                    <p>The coastal environment of Sri Lanka depends heavily on mangroves. 
+                    The intertidal zone, or the place where land meets the sea, is home to these unusual trees because they have adapted to live in saltwater.</p> 
+                    <p>Sri lanka has several types of mangroves.Such as:</p>
+                    <ul>
+                        <li>Rhizophora</li>
+                        <li>Avicennia</li>
+                        <li>Sonneratia</li>
+                    </ul> 
+                </div>
+                <div class="mangrove-col">
+                    <img src="Image/mangrove-798578_640.jpg" alt="mangrove">
+                </div>
             </div>
-        </div>
+            </section>
+        <!--sub-section 02-->
+        <section class="mangrove">
+            <div class="row">
+                <div class="mangrove-col">
+                    <img src="Image/Coastal.jpg" alt="coastal">
+                </div>
+                <div class="mangrove-col">
+                    <h1>Coastal Wonders - Where Land Meets Sea</h1>
+                    <p> Sri Lanka, known for its stunning coastline, offers a plethora of coastal wonders where land meets sea.</p> 
+                    <p>The country's diverse coastal geography provides opportunities for various activities such as surfing, snorkeling, and wildlife spotting.</p> 
+                </div> 
+            </div>
         </section>
-    <!--sub-section 02-->
-    <section class="mangrove">
-        <div class="row">
-            <div class="mangrove-col">
-                <img src="Image/Coastal.jpg" alt="coastal">
+        <!---sub-section 03-->
+        <section class="mangrove">
+            <div class="row">
+                <div class="mangrove-col">
+                    <h1>Highland Retreats - Tranquility Amidst Tea Plantations</h1>
+                    <p>Highland Retreats in Sri Lanka offer a serene and peaceful escape amidst the breathtaking tea plantations.</p> 
+                    <p>Highland Retreats in Sri Lanka are an ideal choice for those seeking a peaceful getaway amidst nature's beauty.</p>
+                    <ol>
+                        <li>Visit tea estates</li>
+                        <li>Explore Horton plains</li>
+                        <li>Withness rare orchids</li>
+                    </ol>
+                </div>
+                <div class="mangrove-col">
+                    <img src="Image/Highland Retreats-pexels-photo.jpeg" alt="highland">
+                </div>
             </div>
-            <div class="mangrove-col">
-                <h1>Coastal Wonders - Where Land Meets Sea</h1>
-                <p> Sri Lanka, known for its stunning coastline, offers a plethora of coastal wonders where land meets sea.</p> 
-                <p>The country's diverse coastal geography provides opportunities for various activities such as surfing, snorkeling, and wildlife spotting.</p> 
-            </div> 
-        </div>
-    </section>
-    <!---sub-section 03-->
-    <section class="mangrove">
-        <div class="row">
-            <div class="mangrove-col">
-                <h1>Highland Retreats - Tranquility Amidst Tea Plantations</h1>
-                <p>Highland Retreats in Sri Lanka offer a serene and peaceful escape amidst the breathtaking tea plantations.</p> 
-                <p>Highland Retreats in Sri Lanka are an ideal choice for those seeking a peaceful getaway amidst nature's beauty.</p>
-                <ol>
-                    <li>Visit tea estates</li>
-                    <li>Explore Horton plains</li>
-                    <li>Withness rare orchids</li>
-                </ol>
+        </section>
+        
+        <!--footer section-->
+        <footer>
+            <div class="footer-content">
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
+                        <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
+                        <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
+                        <li><a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a></li>
+                        <li><a href="Yala National Park .html">YALA NATIONAL PARK </a></li>
+                        <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK </a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="mangrove-col">
-                <img src="Image/Highland Retreats-pexels-photo.jpeg" alt="highland">
-            </div>
-        </div>
-    </section>
-    <!--footer section-->
-    <footer>
-        <div class="footer-content">
-            <div class="social-icons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <div class="footer-nav">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
-                    <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                    <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
-                    <li><a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a>
-                    <li><a href="Yala National Park .html">YALA NATIONAL PARK  </a></li>
-                    <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK  </a></li>
-                </ul>
+            <div class="bottom-bar">
+                <p>&copy;2023 sithari.All right reserved</p>
             </div>
         </div>
-        <div class="bottom-bar">
-            <p>&copy;2023 sithari.All right reserved</p>
-        </div>
+        <form x-data="{email:'',subscribes:false}"@submit.prevent="subscribe()">
+            <input type="email" x-model="email" placeholder="Your email">
+            <button type="submit">Subscribe</button>
+            <p x-show="subscribed">Thank you for subscribing!!</p>
+        </form>
     </footer>
-            
 </body>
 </html>
