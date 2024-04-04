@@ -1,51 +1,332 @@
 {
-  "header": {
-    "title": "WILPATTU WONDERS: NAVIGATING THE WILDERNESS TAPESTRY",
-    "logo": "Image/attachment_89091231-removebg-preview.png",
-    "navigation": [
-      {"label": "HOME", "link": "index.html"},
-      {"label": "SRI LANKAN WILDLIFE", "link": "Sri Lankan wildlife.html"},
-      {"label": "DWC SRI LANKA", "link": "Department of Wildlife Conservation.html"},
-      {"label": "SRI LANKAN LEOPARD", "link": "Sri Lankan Leopard .html"},
-      {"label": "ANIMALS IN SRI LANKA", "link": "Animals in Sri Lanka.html"},
-      {"label": "YALA NATIONAL PARK", "link": "Yala National Park .html"},
-      {"label": "WILPATTU NATIONAL PARK", "link": "Wilpattu National Park .html"}
+  "head": {
+    "title": "Wilpattu national park",
+    "links": [
+      {
+        "rel": "apple-touch-icon",
+        "sizes": "180x180",
+        "href": "Image/attachment_89091231-removebg-preview.png"
+      },
+      {
+        "rel": "icon",
+        "type": "image/png",
+        "sizes": "32x32",
+        "href": "Image/attachment_89091231-removebg-preview.png"
+      },
+      {
+        "rel": "icon",
+        "type": "image/png",
+        "sizes": "16x16",
+        "href": "Image/attachment_89091231-removebg-preview.png"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "wilpattu_style.css"
+      },
+      {
+        "rel": "preconnect",
+        "href": "https://fonts.googleapis.com"
+      },
+      {
+        "rel": "preconnect",
+        "href": "https://fonts.gstatic.com",
+        "crossorigin": true
+      },
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+        "integrity": "sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==",
+        "crossorigin": "anonymous",
+        "referrerpolicy": "no-referrer"
+      }
     ]
   },
-  "wilpattuIntro": {
-    "title": "Discover the wonders",
-    "text": "Wilpattu National Park (WNP) is Sri Lanka's largest and oldest protected area, including more than 11,000 hectares. It is controlled by the Department of Wildlife Conservation and covers Puttalam and Anuradhapura districts, as well as Mannar and Vavuniya. The park is home to the elusive Sri Lankan leopard and sloth bear, as well as deep forest cover and the distinctive Villu wetlands. The park is near the ancient historical city of Anuradhapura and contains numerous ancient remains and artifacts. The park is famous for its leopard population, with a remote camera survey collecting images of 49 different leopards. The park was closed owing to security concerns during the Sri Lankan Civil War but reopened 16 years later. The park's history goes back to 543 BC when Prince Vijaya established the Sinhalese kingdom at Tambapanni."
-  },
-  "wilpattuAnimals": {
-    "title": "Marvelous Menagerie",
-    "text": "Wilpattu National Park in Sri Lanka has a distinct ecology with a diverse range of flora and wildlife. The park covers 131,693 hectares and contains extensive woods, meadows, wetlands, and coastal lagoons. It is home to over 1,000 plant species, including endemics like Ceylon Ironwood and Ceylon Satin Wood. Elephants, leopards, sloth bears, and a variety of bird species call the park home. Elephants, sloth bears, leopards, water buffalo, sambar, spotted deer, mongoose, mouse, and shrew are among the mammals that live in the park. The park's bird population includes the painted stork, open bill, small cormorant, Sri Lankan junglefowl, owls, terns, gulls, eagles, kites, buzzards, and wetland bird species. The park's reptiles include the monitor lizard, mugger crocodile, common cobra, rat snake, Indian python, pond turtle, and soft-shelled turtle. With over 200 recorded species, including the Sri Lankan Hanging Parrot, Indian Roller, and Ceylon Blue Magpie, the park is a wildlife lover's and conservationist's paradise.",
-    "gallery": [
-      "Image/wilapttu 01.jpeg",
-      "Image/wilapttu 02.jpeg",
-      "Image/wilapttu 03.jpg",
-      "Image/wilapttu 04.jpg"
+  "body": {
+    "sections": [
+      {
+        "class": "header",
+        "divs": [
+          {
+            "class": "menu",
+            "divs": [
+              {
+                "class": "logo",
+                "img": {
+                  "src": "Image/attachment_89091231-removebg-preview.png"
+                }
+              },
+              {
+                "class": "nav",
+                "nav": {
+                  "ul": [
+                    {
+                      "li": {
+                        "a": {
+                          "href": "form.html",
+                          "text": "LOGIN"
+                        }
+                      }
+                    },
+                    {
+                      "li": {
+                        "a": {
+                          "href": "index.html",
+                          "text": "HOME"
+                        }
+                      }
+                    },
+                    {
+                      "li": {
+                        "a": {
+                          "href": "Sri Lankan wildlife.html",
+                          "text": "SRI LANKAN WILDLIFE"
+                        }
+                      }
+                    },
+                    {
+                      "li": {
+                        "a": {
+                          "href": "Department of Wildlife Conservation.html",
+                          "text": "DWC SRI LANKA"
+                        }
+                      }
+                    },
+                    {
+                      "li": {
+                        "a": {
+                          "href": "Sri Lankan Leopard .html",
+                          "text": "SRI LANKAN LEOPARD"
+                        }
+                      }
+                    },
+                    {
+                      "li": {
+                        "a": {
+                          "href": "Animals in Sri Lanka.html",
+                          "text": "ANIMALS IN SRI LANKA"
+                        },
+                        "div": {
+                          "class": "dropdown",
+                          "ul": [
+                            {
+                              "li": {
+                                "a": {
+                                  "href": "Yala National Park .html",
+                                  "text": "YALA NATIONAL PARK"
+                                }
+                              }
+                            },
+                            {
+                              "li": {
+                                "a": {
+                                  "href": "Wilpattu National Park .html",
+                                  "text": "WILPATTU NATIONAL PARK"
+                                },
+                                "class": "active"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "div": {
+          "class": "header__content",
+          "h1": "WILPATTU WONDERS:NAVIGATING THE WILDERNESS TAPESTRY"
+        }
+      },
+      {
+        "class": "container",
+        "sections": [
+          {
+            "class": "wilpattu-intro",
+            "h1": "Discover the wonders",
+            "p": "Wilpattu National Park (WNP) is Sri Lanka's largest and oldest protected area, including more than 11,000 hectares. It is controlled by the Department of Wildlife Conservation and covers Puttalam and Anuradhapura districts, as well as Mannar and Vavuniya. The park is home to the elusive Sri Lankan leopard and sloth bear, as well as deep forest cover and the distinctive Villu wetlands. The park is near the ancient historical city of Anuradhapura and contains numerous ancient remains and artifacts. The park is famous for its leopard population, with a remote camera survey collecting images of 49 different leopards. The park was closed owing to security concerns during the Sri Lankan Civil War but reopened 16 years later. The park's history goes back to 543 BC when Prince Vijaya established the Sinhalese kingdom at Tambapanni."
+          },
+          {
+            "class": "wilpattu-ani",
+            "h1": "Marvelous Menagerie",
+            "p": [
+              "Wilpattu National Park in Sri Lanka has a distinct ecology with a diverse range of flora and wildlife. The park covers 131,693 hectares and contains extensive woods, meadows, wetlands, and coastal lagoons. It is home to over 1,000 plant species, including endemics like Ceylon Ironwood and Ceylon Satin Wood. Elephants, leopards, sloth bears, and a variety of bird species call the park home.",
+              "Elephants, sloth bears, leopards, water buffalo, sambar, spotted deer, mongoose, mouse, and shrew are among the mammals that live in the park. The park's bird population includes the painted stork, open bill, small cormorant, Sri Lankan junglefowl, owls, terns, gulls, eagles, kites, buzzards, and wetland bird species.",
+              "The park's reptiles include the monitor lizard, mugger crocodile, common cobra, rat snake, Indian python, pond turtle, and soft-shelled turtle. With over 200 recorded species, including the Sri Lankan Hanging Parrot, Indian Roller, and Ceylon Blue Magpie, the park is a wildlife lover's and conservationist's paradise."
+            ],
+            "div": {
+              "class": "gallery",
+              "figures": [
+                {
+                  "class": "card",
+                  "img": {
+                    "src": "Image/wilapttu 01.jpeg",
+                    "alt": "Image 01"
+                  }
+                },
+                {
+                  "class": "card",
+                  "img": {
+                    "src": "Image/wilapttu 02.jpeg",
+                    "alt": "Image 02"
+                  }
+                },
+                {
+                  "class": "card",
+                  "img": {
+                    "src": "Image/wilapttu 03.jpg",
+                    "alt": "Image 03"
+                  }
+                },
+                {
+                  "class": "card",
+                  "img": {
+                    "src": "Image/wilapttu 04.jpg",
+                    "alt": "Image 04"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "class": "Conservation",
+            "h1": "Conservation Commitments",
+            "p": [
+              "The Wilpattu National Park in Sri Lanka is being renovated through a project involving the Sri Lankan Department of Wildlife Conservation and others. The project seeks to protect wildlife habitats, enhance elephant fence maintenance, and reduce poaching. It also gives training on nondiscriminatory participation and human rights standards.",
+              "In addition, the park is developing a visitor information and guidance system to deal with increased visitor numbers. The project also seeks to encourage sustainable use of marine resources by negotiating voluntary renunciation of damaging resource usage with fishermen and cooperatives. The project also intends to promote access to long-term economic prospects through village development plans and compensation programs. The project also aims to increase environmental awareness and promote peaceful coexistence. Wilpattu National Park, which had previously been closed owing to civil upheaval, reopened in 2010 and has since been a priority region for environmental conservation and rural development."
+            ]
+          }
+        ]
+      },
+      {
+        "class": "footer",
+        "div": {
+          "class": "footer-content",
+          "divs": [
+            {
+              "class": "social-icons",
+              "a": [
+                {
+                  "href": "",
+                  "i": {
+                    "class": "fa-brands fa-facebook"
+                  }
+                },
+                {
+                  "href": "",
+                  "i": {
+                    "class": "fa-brands fa-instagram"
+                  }
+                },
+                {
+                  "href": "",
+                  "i": {
+                    "class": "fa-brands fa-twitter"
+                  }
+                },
+                {
+                  "href": "",
+                  "i": {
+                    "class": "fa-brands fa-linkedin"
+                  }
+                }
+              ]
+            },
+            {
+              "class": "footer-nav",
+              "ul": [
+                {
+                  "li": {
+                    "a": {
+                      "href": "index.html",
+                      "text": "HOME"
+                    }
+                  }
+                },
+                {
+                  "li": {
+                    "a": {
+                      "href": "Sri Lankan wildlife.html",
+                      "text": "SRI LANKAN WILDLIFE"
+                    }
+                  }
+                },
+                {
+                  "li": {
+                    "a": {
+                      "href": "Department of Wildlife Conservation.html",
+                      "text": "DWC SRI LANKA"
+                    }
+                  }
+                },
+                {
+                  "li": {
+                    "a": {
+                      "href": "Sri Lankan Leopard .html",
+                      "text": "SRI LANKAN LEOPARD"
+                    }
+                  }
+                },
+                {
+                  "li": {
+                    "a": {
+                      "href": "Animals in Sri Lanka.html",
+                      "text": "ANIMALS IN SRI LANKA"
+                    },
+                    "div": {
+                      "class": "dropdown",
+                      "ul": [
+                        {
+                          "li": {
+                            "a": {
+                              "href": "Yala National Park .html",
+                              "text": "YALA NATIONAL PARK"
+                            }
+                          }
+                        },
+                        {
+                          "li": {
+                            "a": {
+                              "href": "Wilpattu National Park .html",
+                              "text": "WILPATTU NATIONAL PARK"
+                            },
+                            "class": "active"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "div_2": {
+          "class": "bottom-bar",
+          "p": "© 2023 sithari. All rights reserved"
+        },
+        "form": {
+          "action": "#",
+          "div": {
+            "class": "form-box",
+            "input": {
+              "type": "text",
+              "name": "emailAddress",
+              "placeholder": "Enter your Email"
+            },
+            "button": {
+              "type": "submit",
+              "text": "Subscribe"
+            }
+          }
+        }
+      }
     ]
-  },
-  "conservation": {
-    "title": "Conservation Commitments",
-    "text": "The Wilpattu National Park in Sri Lanka is being renovated through a project involving the Sri Lankan Department of Wildlife Conservation and others. The project seeks to protect wildlife habitats, enhance elephant fence maintenance, and reduce poaching. It also gives training on nondiscriminatory participation and human rights standards. In addition, the park is developing a visitor information and guidance system to deal with increased visitor numbers. The project also seeks to encourage sustainable use of marine resources by negotiating voluntary renunciation of damaging resource usage with fishermen and cooperatives. The project also intends to promote access to long-term economic prospects through village development plans and compensation programs. The project also aims to increase environmental awareness and promote peaceful coexistence. Wilpattu National Park, which had previously been closed owing to civil upheaval, reopened in 2010 and has since been a priority region for environmental conservation and rural development."
-  },
-  "footer": {
-    "socialIcons": [
-      {"platform": "Facebook", "link": ""},
-      {"platform": "Instagram", "link": ""},
-      {"platform": "Twitter", "link": ""},
-      {"platform": "LinkedIn", "link": ""}
-    ],
-    "navigation": [
-      {"label": "HOME", "link": "index.html"},
-      {"label": "SRI LANKAN WILDLIFE", "link": "Sri Lankan wildlife.html"},
-      {"label": "DWC SRI LANKA", "link": "Department of Wildlife Conservation.html"},
-      {"label": "SRI LANKAN LEOPARD", "link": "Sri Lankan Leopard .html"},
-      {"label": "ANIMALS IN SRI LANKA", "link": "Animals in Sri Lanka.html"},
-      {"label": "YALA NATIONAL PARK", "link": "Yala National Park .html"},
-      {"label": "WILPATTU NATIONAL PARK", "link": "Wilpattu National Park .html"}
-    ],
-    "copyright": "&copy;2023 sithari. All rights reserved"
   }
 }

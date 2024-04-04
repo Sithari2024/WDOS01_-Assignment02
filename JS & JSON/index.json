@@ -1,0 +1,62 @@
+{
+ "sections": [
+    {
+      "class": "introduction",
+      "h2": "Biodiversity of Sri Lanka",
+      "p": "Explore the wildlife of Sri Lanka and its abundant biodiversity and natural beauty..."
+    },
+    {
+      "class": "mangrove",
+      "sections": [
+        {
+          "class": "row",
+          "divs": [
+            {
+              "class": "mangrove-col",
+              "h1": "Mystical Mangroves-Nurturing Coastal Life",
+              "ps": [
+                "The coastal environment of Sri Lanka depends heavily on mangroves...",
+                "Sri Lanka has several types of mangroves such as:"
+              ],
+              "ul": [
+                "Rhizophora",
+                "Avicennia",
+                "Sonneratia"
+              ]
+            },
+            {
+              "class": "mangrove-col",
+              "img": {
+                "src": "Image/mangrove-798578_640.jpg",
+                "alt": "Mangrove"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "coastal",
+      "h1": "Coastal Wonders - Where Land Meets Sea",
+      "p": "Sri Lanka, known for its stunning coastline, offers a plethora of coastal wonders...",
+      "img": {
+        "src": "Image/Coastal.jpg",
+        "alt": "Coastal"
+      }
+    },
+    {
+      "class": "highland",
+      "h1": "Highland Retreats - Tranquility Amidst Tea Plantations",
+      "p": "Highland Retreats in Sri Lanka offer a serene and peaceful escape...",
+      "ol": [
+        "Visit tea estates",
+        "Explore Horton plains",
+        "Witness rare orchids"
+      ],
+      "img": {
+        "src": "Image/Highland Retreats-pexels-photo.jpeg",
+        "alt": "Highland"
+      }
+    }
+ ]
+}
