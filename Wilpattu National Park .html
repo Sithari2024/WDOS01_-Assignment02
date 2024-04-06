@@ -51,59 +51,34 @@
 </section>
 <div class="container">
     <section class="wilpattu-intro">
-            <h1>Discover the wonders</h1>
-            <p>Wilpattu National Park (WNP) is Sri Lanka's largest and oldest protected area, including more than 11,000 hectares. 
-                It is controlled by the Department of Wildlife Conservation and covers Puttalam and Anuradhapura districts, as well as Mannar and Vavuniya. 
-                The park is home to the elusive Sri Lankan leopard and sloth bear, as well as deep forest cover and the distinctive Villu wetlands. The park is near the ancient historical city of Anuradhapura and contains numerous ancient remains and artifacts. The park is famous for its leopard population, with a remote camera survey collecting images of 49 different leopards. The park was closed owing to security concerns during the Sri Lankan Civil War but reopened 16 years later. 
-                The park's history goes back to 543 BC when Prince Vijaya established the Sinhalese kingdom at Tambapanni.</p>
+        <h1 id="wilpattu_intro_title"></h1>
+        <p id="wilpattu_intro_content"></p>
     </section>
+
     <section class="wilpattu-ani">
-        <h1>Marvelous Menagerie</h1>
-        <p>Wilpattu National Park in Sri Lanka has a distinct ecology with a diverse range of flora and wildlife. 
-            The park covers 131,693 hectares and contains extensive woods, meadows, wetlands, and coastal lagoons. 
-            It is home to over 1,000 plant species, including endemics like Ceylon Ironwood and Ceylon Satin Wood. 
-            Elephants, leopards, sloth bears, and a variety of bird species call the park home.</p>
+        <h1 id="wilpattu_ani_title"></h1>
+        <p id="wilpattu_ani_content"></p>
+        <div class="gallery">
+            <figure class="card">
+                <img id="wilpattu_ani_image_1" src="Image/wilapttu 01.jpeg" alt="Image 01">
+            </figure>
+            <figure class="card">
+                <img id="wilpattu_ani_image_2" src="Image/wilapttu 02.jpeg" alt="Image 02">
+            </figure>
+            <figure class="card">
+                <img id="wilpattu_ani_image_3" src="Image/wilapttu 03.jpg" alt="Image 03">
+            </figure>
+            <figure class="card">
+                <img id="wilpattu_ani_image_4" src="Image/wilapttu 04.jpg" alt="Image 04">
+            </figure>
+        </div>
+    </section>
 
-        <p>Elephants, sloth bears, leopards, water buffalo, sambar, spotted deer, mongoose, mouse, and shrew are among the mammals that live in the park. 
-            The park's bird population includes the painted stork, open bill, small cormorant, Sri Lankan junglefowl, owls, terns, gulls, eagles, kites, buzzards, and wetland bird species.</p>
-            
-        <p>The park's reptiles include the monitor lizard, mugger crocodile, common cobra, rat snake, Indian python, pond turtle, and soft-shelled turtle. With over 200 recorded species, including the Sri Lankan Hanging Parrot, Indian Roller, and Ceylon Blue Magpie, the park is a wildlife lover's and conservationist's paradise.</p>
-        
-            <div class="gallery">
-                <figure class="card">
-                    <img src="Image/wilapttu 01.jpeg" alt="Image 01">
-                </figure>
-                <figure class="card">
-                    <img src="Image/wilapttu 02.jpeg" alt="Image 02">
-                </figure>
-                <figure class="card">
-                    <img src="Image/wilapttu 03.jpg" alt="Image 03">
-                </figure>
-                <figure class="card">
-                    <img src="Image/wilapttu 04.jpg" alt="Image 04">
-                </figure>
-                
-                
-            </div>
-        
-        </section>
-        <section class="Conservation">
-            <h1>Conservation Commitments</h1>
-            <p>The Wilpattu National Park in Sri Lanka is being renovated through a project involving the Sri Lankan Department of Wildlife Conservation and others. 
-                The project seeks to protect wildlife habitats, enhance elephant fence maintenance, and reduce poaching. 
-                It also gives training on nondiscriminatory participation and human rights standards. </p>
-            <p>In addition, the park is developing a visitor information and guidance system to deal with increased visitor numbers. 
-                The project also seeks to encourage sustainable use of marine resources by negotiating voluntary renunciation of damaging resource usage with fishermen and cooperatives. 
-                The project also intends to promote access to long-term economic prospects through village development plans and compensation programs. 
-                The project also aims to increase environmental awareness and promote peaceful coexistence. Wilpattu National Park, which had previously been closed owing to civil upheaval, reopened in 2010 and has since been a priority region for environmental conservation and rural development.</p>
-
-            
-        </section>
+    <section class="Conservation">
+        <h1 id="wilpattu_conservation_title"></h1>
+        <p id="wilpattu_conservation_content"></p>
+    </section>
 </div>
-
-    <!--An introduction to Sri Lankan wildlife -->
-    
-    
     <!--footer section-->
     <footer>
         <div class="footer-content">
@@ -127,9 +102,10 @@
         </div>
         <!-- Newsletter Subscription -->
         <div class="box">
-            <form action="#">
+            <form id="subscriptionForm" action="#">
                 <div class="form-box">
-                    <input type="text" name="emailAddress" placeholder="Enter your Email">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="emailAddress" placeholder="Enter your Email" required>
                     <button type="submit">Subscribe</button>
                 </div>
             </form>
@@ -139,6 +115,18 @@
             <p>&copy; 2023 sithari. All rights reserved</p>
         </div>
     </footer>
+    <script src="JS & JSON\wilpattu-nw.js"></script> 
             
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

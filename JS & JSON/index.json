@@ -1,62 +1,126 @@
 {
- "sections": [
+  "introduction": {
+    "title": "Biodiversity of Sri Lanka",
+    "content": "Explore the wildlife of Sri Lanka and its abundant biodiversity and natural beauty. The island is home to a wide variety of flora and fauna, from pristine beaches to lush jungles. The remarkable diversity of ecosystems that sustain a wide range of wildlife species is facilitated by Sri Lanka's distinct physical features, which include mountains, plains, and coastal regions. A third or so of Sri Lanka's territory is covered with natural vegetation. In much of the nation, forests make up the climax vegetation—that is, the natural flora allowed to grow unhindered. Tropical wet evergreen forests predominate in the lowlands of the Wet Zone, while submontane and montane evergreen forests do so in the highlands. The climax vegetation of the Dry Zone is made up of moist deciduous and dry evergreen forests, with the woods giving place to a stunted, shrubby, xerophytic (drought-tolerant) vegetation in its driest areas. Grasslands and scant woodlands are common in the Central Highlands' highest altitudes."
+  },
+  "mangrove": {
+    "title": "Mystical Mangroves-Nurturing Coastal Life",
+    "content": "The coastal environment of Sri Lanka depends heavily on mangroves. The intertidal zone, or the place where land meets the sea, is home to these unusual trees because they have adapted to live in saltwater."
+  },
+  "coastal_wonders": {
+    "title": "Coastal Wonders - Where Land Meets Sea",
+    "content": "Sri Lanka, known for its stunning coastline, offers a plethora of coastal wonders where land meets sea. The country's diverse coastal geography provides opportunities for various activities such as surfing, snorkeling, and wildlife spotting."
+  },
+  "highland_retreats": {
+    "title": "Highland Retreats - Tranquility Amidst Tea Plantations",
+    "content": "Highland Retreats in Sri Lanka offer a serene and peaceful escape amidst the breathtaking tea plantations. Highland Retreats in Sri Lanka are an ideal choice for those seeking a peaceful getaway amidst nature's beauty."
+  },
+  "ani-introduction": {
+    "title": "The Wildlife Tapestry of Sri Lanka: Exploring the Habitats and Preserving Indigenous Species",
+    "content": "There is a wide variety of flora and fauna in Sri Lanka, such as lizards, turtles, tortoises, monitors, snakes, crocodiles, and 526 birds. These creatures are threatened by global warming and increasing urbanisation, which is why the IUCN has listed some of them on its \"red list\" of critically endangered species. For an animal to be included on this list, it must have lost less than 80% of its population within the last ten years and have less than 250 members in a given area. According to research, the Northern and Eastern provinces have lower levels of urbanisation and human density, which lessens the threat to severely endangered animals. It is possible to stop extinction by enacting laws that penalise poaching, deforestation, urban planning, and environmental respect. Among the significant wildlife reserves are Wilpattu National Park, Yala National Park, and Udawalawe National."
+  },
+  "endangered_animals": [
     {
-      "class": "introduction",
-      "h2": "Biodiversity of Sri Lanka",
-      "p": "Explore the wildlife of Sri Lanka and its abundant biodiversity and natural beauty..."
+      "name": "Blue Whales",
+      "image": "Image/blue whales.jpg",
+      "description": "Based on their diet of crustacean krill, blue whales—the biggest mammals on Earth—are found all over the world. In the deep ocean, their low-frequency sounds can reach hundreds of kilometres, and their maximum length is 30 metres, and their highest weight is 170 tonnes. In order to guarantee their survival, the Sri Lankan Wildlife Department is working."
     },
     {
-      "class": "mangrove",
-      "sections": [
-        {
-          "class": "row",
-          "divs": [
-            {
-              "class": "mangrove-col",
-              "h1": "Mystical Mangroves-Nurturing Coastal Life",
-              "ps": [
-                "The coastal environment of Sri Lanka depends heavily on mangroves...",
-                "Sri Lanka has several types of mangroves such as:"
-              ],
-              "ul": [
-                "Rhizophora",
-                "Avicennia",
-                "Sonneratia"
-              ]
-            },
-            {
-              "class": "mangrove-col",
-              "img": {
-                "src": "Image/mangrove-798578_640.jpg",
-                "alt": "Mangrove"
-              }
-            }
-          ]
-        }
+      "name": "Leatherback turtle",
+      "image": "Image/Leatherback turtle.jpg",
+      "description": "With its large size and leathery carapace, the leatherback sea turtle is one of Sri Lanka's most important species. It lives in coastal areas such as Batticaloa and Panama. Volunteers, wildlife officials, and local organisations are working together to safeguard these amazing creatures through conservation projects. Additionally emphasised are eco-friendly tourism activities like escorted turtle viewing tours."
+    },
+    {
+      "name": "Sloth Bear",
+      "image": "Image/Sloth Bear.jpg",
+      "description": "An ant, a termite, and a fruit eater, the Sri Lankan Sloth Bear is a subspecies of the sloth bear that inhabits dry zone forests. After six to seven months of pregnancy, they give birth to two cubs. A V or Y marking on its chest, large eyes, a tongue, and a long nose characterize this bear."
+    },
+    {
+      "name": "Asian Elephant",
+      "image": "Image/ele.jpg",
+      "description": "Because of poaching, habitat damage, and violence, there are less endangered Asian elephants in Sri Lanka. Programmes for wildlife corridors, habitat restoration, and conflict mediation are being implemented by conservation organisations in collaboration with local administrations and communities. The largest land mammal, the Asian elephant, is a cultural emblem in Asia."
+    },
+    {
+      "name": "saltwater crocodile",
+      "image": "Image/salt water crocodile.jpg",
+      "description": "Native to saltwater settings in India, Southeast Asia, the Sundaic area, northern Australia, and Micronesia, the saltwater crocodile is a huge, hypercarnivorous predator. They can cross rivers, are migratory, and ambush their prey. At the age of 10–12, they achieve sexual maturity, weigh 400–1000 kg, and construct nests resembling mounds."
+    },
+    {
+      "name": "The Black-Necked Stork",
+      "image": "Image/The Black-Necked Stork.jpg",
+      "description": "A large, long-necked wading bird, the black-necked stork is found near crops like wheat and rice as well as in wetland settings. This species is found throughout Southeast Asia and the Indian Subcontinent, with a sporadic occurrence in Australia. Adult birds are patterned in glossy black and white, with yellow irises on females and dark-colored irises on males. They have a hefty bill."
+    }
+  ],
+  "intro": {
+    "title": "Sri Lanka Department of Wildlife Conservation",
+    "content": "Protecting the nation's biodiversity and promoting sustainable resource use are top priorities for Sri Lanka's Department of Wildlife Conservation. It addresses disputes between people and animals and fights illicit activity. It focuses on wildlife research, monitoring, and conservation efforts. Through collaborations with groups and stakeholders, the department also advances ecological balance and public awareness. Its initiatives guarantee the country's natural heritage will be intact.",
+    "vision": "Long term conservation of wildlife resources for present and future generations.",
+    "mission": "To ensure conservation of wildlife resources by all together under Professional Management."
+  },
+  "protectedAreas": {
+    "title": "Protected Areas",
+    "areas": [
+      {
+        "name": "Horton Plains National Park",
+        "image": "Image/horton_plain.jpg"
+      },
+      {
+        "name": "Wilpattu National Park",
+        "image": "Image/wilpattu_national_park.jpg"
+      },
+      {
+        "name": "Kumana National Park",
+        "image": "Image/kumana_national_park.jpg"
+      },
+      {
+        "name": "Minneriya-Girithale National Park",
+        "image": "Image/minneriya_national_park.jpg"
+      },
+      {
+        "name": "Peak Wilderness Sanctuary",
+        "image": "Image/Peak_Wilderness_Sanctuary.jpg"
+      }
+    ]
+  },
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028004.2225828776!2d77.48084085624998!3d6.897092700000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704417192991!5m2!1sen!2slk",
+  "yala": {
+    "intro": {
+      "title": "Discover the wonders",
+      "content": "Yala National Park, also known as Ruhuna National Park, is a must-see for leopard safaris. The park is separated into five blocks, with Block I being the most popular and lucrative spot for a leopard safari. The park is 20 km southwest of Tissamaharama and may be accessed via Chena Huts. Yala National Park, located in Sri Lanka's southern region, is the most popular and second-largest national park. It comprises 979 square kilometers and is home to a wide range of animals, including Sri Lankan elephants, leopards, and aquatic birds. The park is one of Sri Lanka's 70 Important Bird Areas and is home to 215 bird species, including six endemic species. It boasts one of the greatest leopard population densities in the world. The area has been home to multiple ancient civilizations and two significant Buddhist pilgrimage sites. The 2004 Indian Ocean tsunami devastated the park, killing 250 people. Since 2009, the park has seen an upsurge in visitor numbers."
+    },
+    "marvelous_menagerie": {
+      "title": "Marvelous Menagerie",
+      "content": "Yala National Park in Sri Lanka is recognized for its unique species and rich biodiversity. It includes a variety of ecosystems such as grasslands, woods, wetlands, and coastal areas, which serve as a home for a diverse range of flora and wildlife. The park is especially well-known for its abundance of elephants, leopards, sloth bears, spotted deer, sambars, wild boars, and mongooses. Yala also has toque macaques, grey langurs, and purple-faced langurs. Yala has around 200 bird species, including peacocks, junglefowl, hornbills, kingfishers, and eagles. Crocodiles, snakes, lizards, frogs, and butterflies can all be found in the park. Visitors can visit the park on guided safaris, which allows them to witness animals in their natural habitats. The park is home to a variety of mammals, including the Sri Lankan elephant, the baby tufted grey langur, the endemic Sri Lankan krait, Boulenger's keelback, Sri Lankan flying snake, painted-lip lizard, Wiegmann's agama, and Bahir's fan-throated lizard. The park also has Sri Lanka's two breeding crocodile species, the mugger and saltwater crocodiles, as well as the Indian cobra and Russell's viper.",
+      "images": [
+        "Image/Ruddy-mongoose.jpg",
+        "Image/Blue-tailed bee-eater.jpeg",
+        "Image/Chital.jpg",
+        "Image/painted stork.jpeg"
       ]
     },
-    {
-      "class": "coastal",
-      "h1": "Coastal Wonders - Where Land Meets Sea",
-      "p": "Sri Lanka, known for its stunning coastline, offers a plethora of coastal wonders...",
-      "img": {
-        "src": "Image/Coastal.jpg",
-        "alt": "Coastal"
-      }
-    },
-    {
-      "class": "highland",
-      "h1": "Highland Retreats - Tranquility Amidst Tea Plantations",
-      "p": "Highland Retreats in Sri Lanka offer a serene and peaceful escape...",
-      "ol": [
-        "Visit tea estates",
-        "Explore Horton plains",
-        "Witness rare orchids"
-      ],
-      "img": {
-        "src": "Image/Highland Retreats-pexels-photo.jpeg",
-        "alt": "Highland"
-      }
+    "conservation": {
+      "title": "Conservation Commitments",
+      "content": "Yala National Park in Sri Lanka, home to the Sri Lankan leopard, is experiencing overcrowding, threatening both the park's fauna and revenue. Visitation to the park climbed from 43,368 in 2008 to 545,007 in 2015, representing a 1000% increase in seven years. This has resulted in an average of 250 automobiles entering Yala Block 1 per day, with higher numbers during the holiday season. To address this over-visitation, the Prime Minister's office formed the 'Yala Sub-Committee' to develop a long-term management strategy. The key stakeholders in this Sub-Committee are the Department of Wildlife Conservation and the Tourist Board. In March 2017, an action plan for improving the wildlife tourism experience in Yala National Park was developed, which included short-term, medium-term, and long-term initiatives. The strategy calls for wildlife conservation, anti-poaching measures, habitat restoration, community involvement, research and monitoring, and tourism management. The goal is to reduce tourism's environmental impact while allowing visitors to appreciate and learn about the park's natural features."
     }
- ]
+  },
+  "wilpattu": {
+    "intro": {
+      "title": "Discover the wonders",
+      "content": "Wilpattu National Park (WNP) is Sri Lanka's largest and oldest protected area, including more than 11,000 hectares. It is controlled by the Department of Wildlife Conservation and covers Puttalam and Anuradhapura districts, as well as Mannar and Vavuniya. The park is home to the elusive Sri Lankan leopard and sloth bear, as well as deep forest cover and the distinctive Villu wetlands. The park is near the ancient historical city of Anuradhapura and contains numerous ancient remains and artifacts. The park is famous for its leopard population, with a remote camera survey collecting images of 49 different leopards. The park was closed owing to security concerns during the Sri Lankan Civil War but reopened 16 years later. The park's history goes back to 543 BC when Prince Vijaya established the Sinhalese kingdom at Tambapanni."
+    },
+    "marvelous_menagerie": {
+      "title": "Marvelous Menagerie",
+      "content": "Wilpattu National Park in Sri Lanka has a distinct ecology with a diverse range of flora and wildlife. The park covers 131,693 hectares and contains extensive woods, meadows, wetlands, and coastal lagoons. It is home to over 1,000 plant species, including endemics like Ceylon Ironwood and Ceylon Satin Wood. Elephants, leopards, sloth bears, and a variety of bird species call the park home. Elephants, sloth bears, leopards, water buffalo, sambar, spotted deer, mongoose, mouse, and shrew are among the mammals that live in the park. The park's bird population includes the painted stork, open bill, small cormorant, Sri Lankan junglefowl, owls, terns, gulls, eagles, kites, buzzards, and wetland bird species. The park's reptiles include the monitor lizard, mugger crocodile, common cobra, rat snake, Indian python, pond turtle, and soft-shelled turtle. With over 200 recorded species, including the Sri Lankan Hanging Parrot, Indian Roller, and Ceylon Blue Magpie, the park is a wildlife lover's and conservationist's paradise.",
+      "images": [
+        "Image/wilapttu 01.jpeg",
+        "Image/wilapttu 02.jpeg",
+        "Image/wilapttu 03.jpg",
+        "Image/wilapttu 04.jpg"
+      ]
+    },
+    "conservation": {
+      "title": "Conservation Commitments",
+      "content": "The Wilpattu National Park in Sri Lanka is being renovated through a project involving the Sri Lankan Department of Wildlife Conservation and others. The project seeks to protect wildlife habitats, enhance elephant fence maintenance, and reduce poaching. It also gives training on nondiscriminatory participation and human rights standards. In addition, the park is developing a visitor information and guidance system to deal with increased visitor numbers. The project also seeks to encourage sustainable use of marine resources by negotiating voluntary renunciation of damaging resource usage with fishermen and cooperatives. The project also intends to promote access to long-term economic prospects through village development plans and compensation programs. The project also aims to increase environmental awareness and promote peaceful coexistence. Wilpattu National Park, which had previously been closed owing to civil upheaval, reopened in 2010 and has since been a priority region for environmental conservation and rural development."
+    }
+  }
 }

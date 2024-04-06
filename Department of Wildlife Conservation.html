@@ -28,13 +28,13 @@
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
                         <li class="active"><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                        <li><a href="Sri Lankan Leopard.html">SRI LANKAN LEOPARD </a></li>
+                        <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
                         <li>
                             <a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a>
                             <div class="dropdown">
                                 <ul>
-                                    <li><a href="Yala National Park.html">YALA NATIONAL PARK </a></li>
-                                    <li><a href="Wilpattu National Park.html">WILPATTU NATIONAL PARK </a></li>
+                                    <li><a href="Yala National Park .html">YALA NATIONAL PARK </a></li>
+                                    <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK </a></li>
                                 </ul>
                             </div>
                         </li>
@@ -48,8 +48,28 @@
         <h1>DWC SRI LANKA</h1>
     </div>
 
-    <!-- This is the container where the dynamically generated content will be appended -->
-    <div id="dynamic-content"></div>
+    <section class="DWC-intro">
+        <h1 id="DWC-intro-title"></h1>
+        <p id="DWC-intro-content"></p>
+        <h2 id="DWC-vision"></h2>
+        <p id="DWC-mission"></p>
+    </section>
+
+    <!-- protected_areas-h Section -->
+    <div class="protected_areas-h">
+        <h1 id="protected_areas-h-title"></h1>
+    </div>
+
+    <!-- protected_areas Section -->
+    <section class="protected_areas">
+        <!-- Content for protected areas will be dynamically populated -->
+    </section>
+
+    <!-- map Section -->
+    <div class="map">
+        <!-- Content for map will be dynamically populated -->
+    </div>
+
 
     <!--footer section-->
     <footer>
@@ -65,18 +85,19 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
                     <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                    <li><a href="Sri Lankan Leopard.html">SRI LANKAN LEOPARD </a></li>
+                    <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
                     <li><a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a></li>
-                    <li><a href="Yala National Park.html">YALA NATIONAL PARK </a></li>
-                    <li><a href="Wilpattu National Park.html">WILPATTU NATIONAL PARK </a></li>
+                    <li><a href="Yala National Park .html">YALA NATIONAL PARK  </a></li>
+                    <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK  </a></li>
                 </ul>
             </div>
         </div>
         <!-- Newsletter Subscription -->
         <div class="box">
-            <form action="#">
+            <form id="subscriptionForm" action="#">
                 <div class="form-box">
-                    <input type="text" name="emailAddress" placeholder="Enter your Email">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="emailAddress" placeholder="Enter your Email" required>
                     <button type="submit">Subscribe</button>
                 </div>
             </form>
@@ -86,6 +107,6 @@
             <p>&copy; 2023 sithari. All rights reserved</p>
         </div>
     </footer>
-    <script src="JS & JSON/DWC.js"></script>
+    <script src="JS & JSON\DWC-SL.js"></script>
 </body>
 </html>

@@ -27,14 +27,14 @@
                         <li class="active"><a href="index.html">HOME</a></li>
                         <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE</a></li>
                         <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                        <li><a href="Sri Lankan Leopard.html">SRI LANKAN LEOPARD</a></li>
+                        <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD</a></li>
                         <li>
                             <a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a>
                             <!-- Dropdown -->
                             <div class="dropdown">
                                 <ul>
-                                    <li><a href="Yala National Park.html">YALA NATIONAL PARK</a></li>
-                                    <li><a href="Wilpattu National Park.html">WILPATTU NATIONAL PARK</a></li>
+                                    <li><a href="Yala National Park .html">YALA NATIONAL PARK  </a></li>
+                                    <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK  </a></li>
                                 </ul>
                             </div>
                         </li>
@@ -46,7 +46,52 @@
     <div class="header__content">
         <h1>WELCOME TO BEAUTY OF SRI LANKA</h1>
     </div>
-    <div id="dynamic-content"></div> <!-- This will be populated dynamically by JavaScript -->
+    <section class="introduction">
+        <h2 id="biodiversity_title"></h2>
+        <p id="biodiversity_content"></p>
+    </section>
+
+    <section class="mangrove">
+        <div class="row">
+            <div class="mangrove-col">
+                <h1 id="mangrove_title_01"></h1>
+                <p id="mangrove_content_01"></p>
+                <ul id="mangrove_list_01">
+                    <!-- Mangrove types will be dynamically added here -->
+                </ul>
+            </div>
+            <div class="mangrove-col">
+                <img id="mangrove_image_01" src="Image/mangrove-798578_640.jpg" alt="Mangrove">
+            </div>
+        </div>
+    </section>
+
+    <section class="mangrove">
+        <div class="row">
+            <div class="mangrove-col">
+                <img id="mangrove_image_02" src="Image/Coastal.jpg" alt="Coastal">
+            </div>
+            <div class="mangrove-col">
+                <h1 id="coastal_title"></h1>
+                <p id="coastal_content"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mangrove">
+        <div class="row">
+            <div class="mangrove-col">
+                <h1 id="highland_title"></h1>
+                <p id="highland_content"></p>
+                <ol id="highland_list">
+                    <!-- Highland activities will be dynamically added here -->
+                </ol>
+            </div>
+            <div class="mangrove-col">
+                <img id="mangrove_image_03" src="Image/Highland Retreats-pexels-photo.jpeg" alt="Highland">
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="footer-content">
             <!-- Social Icons -->
@@ -62,21 +107,20 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE</a></li>
                     <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                    <li><a href="Sri Lankan Leopard.html">SRI LANKAN LEOPARD</a></li>
+                    <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD</a></li>
                     <li><a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a></li>
-                    <li><a href="Yala National Park.html">YALA NATIONAL PARK</a></li>
-                    <li><a href="Wilpattu National Park.html">WILPATTU NATIONAL PARK</a></li>
+                    <li><a href="Yala National Park .html">YALA NATIONAL PARK  </a></li>
+                    <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK  </a></li>
                 </ul>
             </div>
             <!-- Newsletter Subscription -->
-            <div class="box">
-                <form action="#">
-                    <div class="form-box">
-                        <input type="text" name="emailAddress" placeholder="Enter your Email">
-                        <button type="submit">Subscribe</button>
-                    </div>
-                </form>
-            </div>
+            <form id="subscriptionForm">
+                <div class="form-box">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="emailAddress" placeholder="Enter your Email" required>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>            
             <!-- Bottom Bar with Copyright -->
             <div class="bottom-bar">
                 <p>&copy; 2023 sithari. All rights reserved</p>
@@ -84,6 +128,10 @@
         </div>
     </footer>
     <!-- JavaScript File -->
-    <script src="JS & JSON\index_js.js"></script>
+    <script src="JS & JSON\index.js"></script>
+    <script src="JS & JSON\newsletters.js"></script>
+    <script src="JS & JSON\admin-DB.js"></script>
 </body>
 </html>
+
+

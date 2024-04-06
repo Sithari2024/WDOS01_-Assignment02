@@ -10,16 +10,16 @@ if (!jsonData) {
             localStorage.setItem('DWCData', JSON.stringify(data));
 
             // Call the function to populate the website content
-            populateWebsiteContent(data);
+            LoadContent(data);
         })
         .catch(error => console.error('Error fetching JSON data:', error));
 } else {
     // If JSON data is already in localStorage, parse and use it directly
     const data = JSON.parse(jsonData);
-    populateWebsiteContent(data);
+    LoadContent(data);
 }
 
-function populateWebsiteContent(data) {
+function LoadContent(data) {
     // Iterate over the sections in the JSON data
     data.sections.forEach(section => {
         // Create a container for each section
