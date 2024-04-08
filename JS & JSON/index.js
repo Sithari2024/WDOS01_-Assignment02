@@ -1,68 +1,61 @@
 // Function to update text content dynamically
 function updateContent(value, id) {
-    const element = document.getElementById(id);
-    if (element) {
-        element.innerHTML = value;
-    } else {
-        console.error('Element with id:', id, 'not found.');
-    }
+  const displayElement = document.getElementById(id);
+  if (displayElement) {
+    displayElement.textContent = value;
+  } else {
+    console.error('Could not find display element with id:', id);
+  }
 }
 
 // Fetch JSON data and update HTML content
 fetch('JS & JSON/index.json')
-    .then(response => response.json())
-    .then(data => {
-        // Store the fetched data in local storage
-        localStorage.setItem('indexContent', JSON.stringify(data));
+  .then(response => response.json())
+  .then(data => {
 
-        // Update the introduction section
-        updateContent(data.introduction.title, "biodiversity_title");
-        updateContent(data.introduction.content, "biodiversity_content");
+      // Store the fetched data in local storage
+      localStorage.setItem('index', JSON.stringify(data));
 
-        // Update the mangrove section
-        updateContent(data.mangrove.title, "mangrove_title_01");
-        updateContent(data.mangrove.content, "mangrove_content_01");
+      
+    // Update introduction section
+    updateContent(indexData.introduction.title, "biodiversity_title");
+    updateContent(indexData.introduction.content, "biodiversity_content");
 
-        // Update the coastal wonders section
-        updateContent(data.coastal_wonders.title, "coastal_title");
-        updateContent(data.coastal_wonders.content, "coastal_content");
+    // Update mangrove section
+      updateContent(indexData.mangrove.title, "mangrove_title_01");
+      updateContent(indexData.mangrove.content, "mangrove_content_01");
 
-        // Update the highland retreats section
-        updateContent(data.highland_retreats.title, "highland_title");
-        updateContent(data.highland_retreats.content, "highland_content");
-    })
-    .catch(error => {
-        console.error('Error fetching or parsing data:', error);
-    });
+      // Update coastal wonders section
+      updateContent(indexData.coastal_wonders.title, "coastal_title");
+      updateContent(indexData.coastal_wonders.content, "coastal_content");
 
+      // Update highland retreats section
+      updateContent(indexData.highland_retreats.title, "highland_title");
+      updateContent(indexData.highland_retreats.content, "highland_content");
+  })
+  .catch(error => {
+    console.error('Error fetching or parsing data:', error);
+  });
+  
+  let  indexData = JSON.parse(localStorage.getItem("index"));
+  if (localStorage.getItem("userRole")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">Edit</span>`;
+    document.getElementById("editor").insertAdjacentHTML("beforeend", getPopup);
+}
+function openPopup() {
+  window.open("editor.html", "", "width=800px, height=410px");
+}
+if(localStorage.getItem("userRole")){
+const  loginUser = `<li><a onclick="removeuser()">Logout</a></li>`;
+document.getElementById("login").insertAdjacentHTML("beforeend", loginUser);
+}
+else{
+const  loginUser = `<li><a href="form.html">Login</a></li>`;
+document.getElementById("login").insertAdjacentHTML("beforeend", loginUser);
 
-
-// Get the form and elements
-const newsletterForm = document.getElementById('newsletterForm');
-const nameInput = document.getElementById('name');
-const emailInput = document.getElementById('email');
-
-// Function to handle form submission
-function handleSubscription(event) {
-    event.preventDefault();
-    
-    // Get input values
-    const name = nameInput.value;
-    const email = emailInput.value;
-    
-    // Save subscription to localStorage
-    let subscriptions = JSON.parse(localStorage.getItem('subscriptions')) || [];
-    subscriptions.push({ name, email });
-    localStorage.setItem('subscriptions', JSON.stringify(subscriptions));
-    
-    // Clear form inputs
-    nameInput.value = '';
-    emailInput.value = '';
-    
-    alert('Thank you for subscribing!');
+}
+function removeuser() {
+localStorage.removeItem('userRole');
+location.reload();
 }
 
-// Add event listener to the form
-newsletterForm.addEventListener('submit', handleSubscription);
-
-    

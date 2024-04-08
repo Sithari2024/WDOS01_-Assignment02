@@ -24,7 +24,6 @@
             <div class="nav">
                 <nav>
                     <ul>
-                        <li><a href="form.html">LOGIN</a></li>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
                         <li class="active"><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
@@ -38,6 +37,8 @@
                                 </ul>
                             </div>
                         </li>
+                        <li a id="login" style= cursor:pointer></a><li>
+                        <li><a id="editor" style= cursor:pointer></a></li>
                     </ul>
                 </nav>
             </div>
@@ -49,52 +50,110 @@
     </div>
 
     <section class="DWC-intro">
-        <h1 id="DWC-intro-title"></h1>
-        <p id="DWC-intro-content"></p>
-        <h2 id="DWC-vision"></h2>
+        <h1 id="DWC-title"></h1>
+        <p id="DWC-intro"></p>
+        <h2>Vision</h2>
+        <p id="DWC-vision"></p>
+        <h3>Mission</h3>
         <p id="DWC-mission"></p>
+        <h3>Functions</h3>
+        <ul>
+            <li id="DWC-functions-0"></li>
+            <li id="DWC-functions-1"></li>
+            <li id="DWC-functions-2"></li>
+            <li id="DWC-functions-3"></li>
+        </ul> 
+        <h4>Strategies</h4>
+        <ul>
+            <li id="DWC-strategies-0"></li>
+            <li id="DWC-strategies-1"></li>
+            <li id="DWC-strategies-2"></li>
+            <li id="DWC-strategies-3"></li>
+        </ul>
     </section>
-
-    <!-- protected_areas-h Section -->
-    <div class="protected_areas-h">
-        <h1 id="protected_areas-h-title"></h1>
-    </div>
-
-    <!-- protected_areas Section -->
+    
     <section class="protected_areas">
-        <!-- Content for protected areas will be dynamically populated -->
+        <div class="areas">
+            <div class="img-container">
+                <img id="protected_area_title_0" src="Image/hortan plain.jpg" alt="horton plain">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h1 id="horton_title">Horton Plains National Park</h1>
+                </div>
+            </div>
+        </div>
+        <div class="areas">
+            <div class="img-container">
+                <img id="protected_area_title_1" src="Image/wilpatthu national park.jpg" alt="Wilpattu national park">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h1 id="wilpattu_title">Wilpattu National Park</h1>
+                </div>
+            </div>
+        </div>
+        <div class="areas">
+            <div class="img-container">
+                <img id="protected_area_title_2" src="Image/kumana national park.jpg" alt="Kumana national park">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h1 id="kumana_title">Kumana National Park</h1>
+                </div>
+            </div>
+        </div>
+        <div class="areas">
+            <div class="img-container">
+                <img id="protected_area_title_3" src="Image/minneriya national park.jpg" alt="Minneriya-Girithale">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h1 id="minneriya_title">Minneriya-Girithale National Park</h1>
+                </div>
+            </div>
+        </div>
+        <div class="areas">
+            <div class="img-container">
+                <img id="protected_area_title_4" src="Image/Peak Wilderness Sanctuary.jpg" alt="Peak Wilderness Sanctuary">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h1 id="peak_title">Peak Wilderness Sanctuary</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Single Edit Content button for the protected_areas section -->
     </section>
-
-    <!-- map Section -->
+    
     <div class="map">
-        <!-- Content for map will be dynamically populated -->
+        <!-- This section will be dynamically populated -->
     </div>
-
-
     <!--footer section-->
     <footer>
         <div class="footer-content">
+            <!-- Social Icons -->
             <div class="social-icons">
                 <a href=""><i class="fab fa-facebook"></i></a>
                 <a href=""><i class="fab fa-instagram"></i></a>
                 <a href=""><i class="fab fa-twitter"></i></a>
                 <a href=""><i class="fab fa-linkedin"></i></a>
             </div>
+            <!-- Footer Navigation -->
             <div class="footer-nav">
-                <ul>
+                <ul id="footerNavList">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE </a></li>
+                    <li><a href="Sri Lankan wildlife.html">SRI LANKAN WILDLIFE</a></li>
                     <li><a href="Department of Wildlife Conservation.html">DWC SRI LANKA</a></li>
-                    <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD </a></li>
+                    <li><a href="Sri Lankan Leopard .html">SRI LANKAN LEOPARD</a></li>
                     <li><a href="Animals in Sri Lanka.html">ANIMALS IN SRI LANKA</a></li>
                     <li><a href="Yala National Park .html">YALA NATIONAL PARK  </a></li>
                     <li><a href="Wilpattu National Park .html">WILPATTU NATIONAL PARK  </a></li>
+                    <li><a href="form.html">LOGIN</a></li>
                 </ul>
             </div>
-        </div>
-        <!-- Newsletter Subscription -->
-        <div class="box">
-            <form id="subscriptionForm" action="#">
+            <!-- Newsletter Subscription -->
+            <form id="subscriptionForm">
                 <div class="form-box">
                     <input type="text" name="name" placeholder="Enter your Name" required>
                     <input type="email" name="emailAddress" placeholder="Enter your Email" required>
@@ -102,11 +161,16 @@
                 </div>
             </form>
         </div>
+        
+    
         <!-- Bottom Bar with Copyright -->
         <div class="bottom-bar">
             <p>&copy; 2023 sithari. All rights reserved</p>
         </div>
     </footer>
+
+    <!-- JavaScript File -->
     <script src="JS & JSON\DWC-SL.js"></script>
+    <script src="JS & JSON\newsletters.js"></script>
 </body>
 </html>
