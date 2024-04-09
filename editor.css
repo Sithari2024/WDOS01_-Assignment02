@@ -1,0 +1,52 @@
+
+.button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 12px; 
+}
+
+/* Style for the SELECT PAGE button on hover */
+#select:hover,
+#save:hover {
+    background-color: #45a049; 
+}
+
+/* Style for the dropdown menu */
+#dropdown {
+    width: 100%; 
+    height: 50px; 
+    padding: 10px; 
+    font-size: 18px; 
+    border: 2px solid #4CAF50;
+    border-radius: 5px; 
+    background-color: #f1f1f1; 
+    color: #333; 
+}
+
+/* Style for the dropdown menu options */
+#dropdown option {
+    padding: 10px;
+    font-size: 18px; 
+}
+
+/* Style for the content textarea */
+#content {
+    width: 100%; 
+    height: 300px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #4CAF50;
+    border-radius: 5px; 
+    background-color: #f1f1f1; 
+    color: #333; 
+    resize: vertical; 
+    overflow: auto; 
+}

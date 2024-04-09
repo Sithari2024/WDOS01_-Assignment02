@@ -1,0 +1,40 @@
+ {
+   "locations": {
+    "title": "Wildlife Exploration in Sri Lanka",
+    "content": "Wildlife aficionados will find paradise in Sri Lanka, an island nation in the Indian Ocean. With its diverse ecosystems and abundant biodiversity, the nation presents a singular chance for wildlife research."
+ },
+ "hortonPlains": {
+    "title": "Horton Plains National Park",
+    "content": "Popular tourist attraction Horton Plains National Park in Sri Lanka is renowned for its unique environment and indigenous species. Offering sweeping views, the park is home to Baker's Falls and World's End. It offers essential habitats for numerous species and is acknowledged as a UNESCO World Heritage Site. Hiking, trekking, wildlife observation, and nature activities are available to visitors. The park is a must-visit for anyone who enjoy the outdoors due to its vast biodiversity and scenic splendour."
+ },
+ "kumana": {
+    "title": "Kumana National Park",
+    "content": "Kumana National Park, a 35,000 hectare wildlife sanctuary in Sri Lanka, is a sanctuary known for its rich biodiversity and unique ecosystems. Established in 1938 as a bird sanctuary, it now hosts over 200 bird species, waterfowl, wading birds, turtle nesting sites, and diverse mammals. The park's numerous water bodies contribute to its ecological diversity. Visitors can explore through guided safaris and nature walks, making it an ideal eco-tourism and wildlife conservation destination."
+ },
+ "sinharaja": {
+    "title": "Sinharaja Forest Reserve",
+    "content": "A hotspot for biodiversity, Sinharaja Forest Reserve is home to a variety of plants and wildlife, including indigenous species. It is recognised as a UNESCO World Heritage Site in Sri Lanka. Its 11,187 hectares are home to 50% of the indigenous mammals, birds, butterflies, reptiles, and amphibians found in Sri Lanka. The reserve is well-liked for both animal photography and ecotourism. In spite of the dangers posed by encroachment, illicit logging, and deforestation, conservation programmes and ecotourism strategies are being carried out."
+},
+ "summaryTable": {
+    "locations": [
+      "Horton Plains National Park",
+      "Kumana National Park",
+      "Sinharaja Forest Reserve"
+    ],
+    "animal": [
+      "Sambar Deer",
+      "Elephant",
+      "Sri Lankan Purple-faced Langur"
+    ],
+    "interestingFacts": [
+      "An enormous species of deer found worldwide",
+      "An enormous species of deer found worldwide",
+      "Endangered on the IUCN Red List, it is native to Sri Lanka."
+    ],
+    "image": [
+      "Image/sambar deer.jpg",
+      "Image/elephant.jpg",
+      "Image/Langur.jpg"
+    ]
+ }
+}

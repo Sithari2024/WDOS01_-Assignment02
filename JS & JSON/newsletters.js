@@ -23,5 +23,5 @@ document.getElementById('subscriptionForm').addEventListener('submit', function(
     document.querySelector('input[name="name"]').value = '';
     document.querySelector('input[name="emailAddress"]').value = '';
 
-    alert('Subscription successful!'); // You can replace this with any feedback mechanism you prefer
+    alert('Subscription successful!'); 
 });
