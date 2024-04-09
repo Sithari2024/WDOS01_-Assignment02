@@ -1,4 +1,4 @@
-// Function to update text content dynamically
+// Function to update text content
 function updateContent(value, id) {
   const displayElement = document.getElementById(id);
   if (displayElement) {
@@ -13,11 +13,8 @@ function updateContent(value, id) {
 fetch('JS & JSON/index.json')
   .then(response => response.json())
   .then(data => {
-
-      // Store the fetched data in local storage
       localStorage.setItem('index', JSON.stringify(data));
 
-      
     // Update introduction section
     updateContent(indexData.introduction.title, "biodiversity_title");
     updateContent(indexData.introduction.content, "biodiversity_content");
@@ -33,6 +30,7 @@ fetch('JS & JSON/index.json')
       // Update highland retreats section
       updateContent(indexData.highland_retreats.title, "highland_title");
       updateContent(indexData.highland_retreats.content, "highland_content");
+      
   })
   .catch(error => {
     console.error('Error fetching or parsing data:', error);
@@ -40,7 +38,6 @@ fetch('JS & JSON/index.json')
   
   let  indexData = JSON.parse(localStorage.getItem("index"));
   if (localStorage.getItem("userRole")) {
-<<<<<<< HEAD
     const  userInfo = JSON.parse(localStorage.getItem("userRole"));
     if  (userInfo == "admin"){
       const getPopup = `<a onclick="openPopup()">Edit</a>`;
@@ -49,13 +46,6 @@ fetch('JS & JSON/index.json')
       window.open("editor.html", "", "width=800px, height=410px");
      }
     }
-=======
-    const getPopup = `<span class="popup" onclick="openPopup()">Edit</span>`;
-    document.getElementById("editor").insertAdjacentHTML("beforeend", getPopup);
-}
-function openPopup() {
-  window.open("editor.html", "", "width=800px, height=410px");
->>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
 }
 if(localStorage.getItem("userRole")){
 const  loginUser = `<li><a onclick="removeuser()">Logout</a></li>`;

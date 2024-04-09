@@ -1,23 +1,23 @@
-// Function to update text content dynamically
+// Function to update text content 
 function updateContent(value, id) {
-    // Find the HTML element where you want to display the value
+
     const displayElement = document.getElementById(id);
-    // Check if the element exists
+   
     if (displayElement) {
-        // Set the textContent of the element to the value
+        
         displayElement.textContent = value;
     } else {
         console.error('Could not find display element with id:', id);
     }
 }
 
-// Function to update image source and alt text
+// Function to update image
 function updateImage(imagePath, altText, id) {
-    // Find the HTML image element
+    
     const imageElement = document.getElementById(id);
-    // Check if the element exists
+    
     if (imageElement) {
-        // Set the src and alt attributes of the image
+        
         imageElement.src = imagePath;
         imageElement.alt = altText;
     } else {
@@ -30,8 +30,8 @@ fetch('JS & JSON/SL-wildlife.json')
     .then(response => response.json())
     .then(data => {
 
-        // Store the fetched data in local storage
         localStorage.setItem('SLwildLifeData', JSON.stringify(data));
+
         // Update locations section
         updateContent(wildLife.locations.title, "locations_title");
         updateContent(wildLife.locations.content, "locations_content");
@@ -74,7 +74,6 @@ fetch('JS & JSON/SL-wildlife.json')
 
     let  wildLife = JSON.parse(localStorage.getItem("SLwildLifeData"));
     if (localStorage.getItem("userRole")) {
-<<<<<<< HEAD
         const  userInfo = JSON.parse(localStorage.getItem("userRole"));
         if  (userInfo == "admin"){
           const getPopup = `<a onclick="openPopup()">Edit</a>`;
@@ -84,14 +83,6 @@ fetch('JS & JSON/SL-wildlife.json')
          }
         }
     }
-=======
-    const getPopup = `<span class="popup" onclick="openPopup()">Edit</span>`;
-    document.getElementById("editor").insertAdjacentHTML("beforeend", getPopup);
-}
-function openPopup() {
-  window.open("editor.html", "", "width=800px, height=410px");
-}
->>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
 if(localStorage.getItem("userRole")){
 const  loginUser = `<li><a onclick="removeuser()">Logout</a></li>`;
 document.getElementById("login").insertAdjacentHTML("beforeend", loginUser);

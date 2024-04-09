@@ -1,4 +1,4 @@
-// Function to update text content dynamically
+// Function to update text content
 function updateContent(value, id) {
     const displayElement = document.getElementById(id);
     if (displayElement) {
@@ -8,7 +8,7 @@ function updateContent(value, id) {
     }
 }
 
-// Function to update image source and alt text
+// Function to update image
 function updateImage(imagePath, altText, id) {
     const imageElement = document.getElementById(id);
     if (imageElement) {
@@ -24,8 +24,8 @@ fetch('JS & JSON/yala.json')
     .then(response => response.json())
     .then(data => {
 
-        // Store the fetched data in local storage
         localStorage.setItem('YalaData', JSON.stringify(data));
+        
         // Update intro section
         updateContent(yala.yala.intro.title, "yala_intro_title");
         updateContent(yala.yala.intro.content, "yala_intro_content");
@@ -49,7 +49,6 @@ fetch('JS & JSON/yala.json')
     });
 
     let  yala = JSON.parse(localStorage.getItem("YalaData"));
-<<<<<<< HEAD
     if (localStorage.getItem("userRole")) {
         const  userInfo = JSON.parse(localStorage.getItem("userRole"));
         if  (userInfo == "admin"){
@@ -60,15 +59,6 @@ fetch('JS & JSON/yala.json')
          }
         }
     }
-=======
-  if (localStorage.getItem("userRole")) {
-    const getPopup = `<span class="popup" onclick="openPopup()">Edit</span>`;
-    document.getElementById("editor").insertAdjacentHTML("beforeend", getPopup);
-}
-function openPopup() {
-  window.open("editor.html", "", "width=800px, height=410px");
-}
->>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
 if(localStorage.getItem("userRole")){
 const  loginUser = `<li><a onclick="removeuser()">Logout</a></li>`;
 document.getElementById("login").insertAdjacentHTML("beforeend", loginUser);

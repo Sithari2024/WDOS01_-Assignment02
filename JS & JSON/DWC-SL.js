@@ -1,11 +1,8 @@
-// Function to update text content dynamically
+// Function to update text content 
 function updateContent(value, id) {
-    // Find the HTML element where you want to display the value
     const displayElement = document.getElementById(id);
 
-    // Check if the element exists
     if (displayElement) {
-        // Set the textContent of the element to the value
         displayElement.textContent = value;
     } else {
         console.error('Could not find display element with id:', id);
@@ -17,7 +14,6 @@ fetch('JS & JSON/DWC.json')
     .then(response => response.json()) 
     .then(data => {
 
-        // Store the fetched data in local storage
         localStorage.setItem('DWCData', JSON.stringify(data));
         // Update the DWC section
         updateContent(dept.DWC.title, "DWC-title");
@@ -58,7 +54,6 @@ fetch('JS & JSON/DWC.json')
     });
 
     let  dept = JSON.parse(localStorage.getItem("DWCData"));
-<<<<<<< HEAD
     if (localStorage.getItem("userRole")) {
         const  userInfo = JSON.parse(localStorage.getItem("userRole"));
         if  (userInfo == "admin"){
@@ -69,15 +64,6 @@ fetch('JS & JSON/DWC.json')
          }
         }
     }
-=======
-  if (localStorage.getItem("userRole")) {
-    const getPopup = `<span class="popup" onclick="openPopup()">Edit</span>`;
-    document.getElementById("editor").insertAdjacentHTML("beforeend", getPopup);
-}
-function openPopup() {
-  window.open("editor.html", "", "width=800px, height=410px");
-}
->>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
 if(localStorage.getItem("userRole")){
 const  loginUser = `<li><a onclick="removeuser()">Logout</a></li>`;
 document.getElementById("login").insertAdjacentHTML("beforeend", loginUser);
