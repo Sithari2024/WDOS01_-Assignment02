@@ -327,11 +327,11 @@ body,html{
   }
 
 /*footer*/
-/*footer*/
 footer {
   background-color: #111;
-  width: 100%;
+  width: 150%;
   box-sizing: border-box;
+  margin-left: -150px;
 }
 
 .footer-content {
