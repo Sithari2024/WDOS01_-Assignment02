@@ -65,6 +65,7 @@ function updateContent(value, id) {
     });
 
     let  animal = JSON.parse(localStorage.getItem("animalData"));
+<<<<<<< HEAD
     if (localStorage.getItem("userRole")) {
       const  userInfo = JSON.parse(localStorage.getItem("userRole"));
       if  (userInfo == "admin"){
@@ -75,6 +76,15 @@ function updateContent(value, id) {
        }
       }
   }
+=======
+  if (localStorage.getItem("userRole")) {
+    const getPopup = `<span class="popup" onclick="openPopup()">Edit</span>`;
+    document.getElementById("editor").insertAdjacentHTML("beforeend", getPopup);
+}
+function openPopup() {
+  window.open("editor.html", "", "width=800px, height=410px");
+}
+>>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
 if(localStorage.getItem("userRole")){
 const  loginUser = `<li><a onclick="removeuser()">Logout</a></li>`;
 document.getElementById("login").insertAdjacentHTML("beforeend", loginUser);

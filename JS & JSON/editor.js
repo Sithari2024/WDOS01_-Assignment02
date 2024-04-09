@@ -28,7 +28,14 @@ if (get_data_button)
 
     if (selectPage == "YALA NATIONAL PARK") {
       textarea.value = localStorage.getItem("YalaData");
+<<<<<<< HEAD
     } 
+=======
+    } else {
+      console.log("something went wrong");
+    }
+
+>>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
     if (selectPage == "WILPATTU NATIONAL PARK") {
       textarea.value = localStorage.getItem("WilpattuData");
     }
@@ -46,7 +53,11 @@ if (editPageButton) {
     const textareaValue = document.querySelector(".textarea").value;
 
     if (selectPage && textareaValue) {
+<<<<<<< HEAD
       if (selectPage == "HOME") {
+=======
+      if (selectPage == "Home") {
+>>>>>>> 36098848dcdeb0fb77388bdd5eb25c16a2ccef47
         localStorage.setItem("index", textareaValue);
       }
 
